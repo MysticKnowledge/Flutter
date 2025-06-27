@@ -57,7 +57,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
               FlutterFlowWebView(
                 content: 'https://animalcommunication-c6013.web.app/home.html',
                 bypass: false,
-                height: 500.0,
+                height: 811.09,
                 verticalScroll: false,
                 horizontalScroll: false,
               ),

@@ -1,9 +1,8 @@
-import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
-import '/index.dart';
+import '/custom_code/actions/index.dart' as actions;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -110,14 +109,9 @@ class _LoginWidgetState extends State<LoginWidget> {
                 ),
                 FFButtonWidget(
                   onPressed: () async {
-                    GoRouter.of(context).prepareAuthEvent();
-                    final user = await authManager.signInWithGoogle(context);
-                    if (user == null) {
-                      return;
-                    }
-
-                    context.goNamedAuth(
-                        HomePageWidget.routeName, context.mounted);
+                    await actions.googleSignInAndCheckEmail(
+                      context,
+                    );
                   },
                   text: 'Sign in with Google',
                   icon: Icon(
