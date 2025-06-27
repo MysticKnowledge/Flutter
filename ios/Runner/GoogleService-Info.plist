@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>61813909664-uq861e4rkfh1kto7mado2s5lnetl5ncu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.61813909664-uq861e4rkfh1kto7mado2s5lnetl5ncu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>61813909664-1hih8hm9pgj42icbtebr8i0ll79u5emj.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAl0-BASQY7peqfGYLPJhhxqncFFQnIbsU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>61813909664</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.myticknowledge.courseapp</string>
+	<key>PROJECT_ID</key>
+	<string>animalcommunication-c6013</string>
+	<key>STORAGE_BUCKET</key>
+	<string>animalcommunication-c6013.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:61813909664:ios:bafa9fd4941b21e615c1c5</string>
+	<key>DATABASE_URL</key>
+	<string>https://animalcommunication-c6013-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
