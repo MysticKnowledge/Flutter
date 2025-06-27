@@ -12,3 +12,15 @@ import Flutter
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
+
+@UIApplicationMain
+     class AppDelegate: FlutterAppDelegate {
+         override func application(
+             _ application: UIApplication,
+             didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+         ) -> Bool {
+             // Prevent screenshots
+             UIApplication.shared.isIdleTimerDisabled = true
+             return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+         }
+    }
